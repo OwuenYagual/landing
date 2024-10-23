@@ -16,12 +16,11 @@ let loaded = () => {
             emailElement.focus()
             emailElement.animate([
                 {transform: "translateX(0)"},
-                {transform: "translateX(50px)" },
-                {transform: "translateX(-50px)" },
+                {transform: "translateX(25px)" },
+                {transform: "translateX(-25px)" },
                 {transform: "translateX(0)" },
-                {transform: "translateX(0)"},
-                {transform: "translateX(50px)" },
-                {transform: "translateX(-50px)" },
+                {transform: "translateX(25px)" },
+                {transform: "translateX(-25px)" },
                 {transform: "translateX(0)" }
             ],{
                 duration: 400,
