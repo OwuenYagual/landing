@@ -315,7 +315,7 @@ a {
 
 #about_us h3 {
   color: #fff8eb;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #about_us .collection-content {
   color: #fff8eb;
@@ -1084,6 +1084,10 @@ a {
   }
 }
 
+#container_aboutus {
+  overflow-x: hidden; /* Evita que el contenido sobresalga horizontalmente */
+}
+
 /*--------------------------------------------------------------
 /** 7.9 Testimonial Slider
 --------------------------------------------------------------*/
@@ -1451,7 +1455,7 @@ a.btn-link.text-light:after {
 /* color options */
 
 #reserve h3 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 #reserve #form input{
