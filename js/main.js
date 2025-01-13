@@ -17,7 +17,7 @@ let sendData = () => {
 
     
 
-    //data['saved'] = new Date().toLocaleString('es-CO', { timeZone: 'America/Guayaquil' })
+    data['saved'] = new Date().toLocaleString('es-CO', { timeZone: 'America/Guayaquil' })
 
     fetch(databaseURL, {
         method: 'POST',
